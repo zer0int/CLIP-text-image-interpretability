@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# Taken and slightly adjusted for this project from: https://github.com/hila-chefer/Transformer-MM-Explainability
 
 import os
 import sys
