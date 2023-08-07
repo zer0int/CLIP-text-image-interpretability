@@ -1,4 +1,8 @@
-# CLIP Visual Interpretability / XAI Tool for ViT (Vision Transformer) models
+# CLIP text-image interpretability
+## Visual Interpretability / XAI Tool for CLIP ViT (Vision Transformer) models
+
+![banner](https://github.com/zer0int/CLIP-text-image-interpretability/assets/132047210/35cfed98-3eed-42a6-84bd-31e27c33de2c)
+
 
 ## Credits & Prerequisites
 
@@ -26,6 +30,10 @@ In simple terms: Feeds an image to a CLIP ViT vision transformer to obtain "a CL
 - Use CLIP's "opinion" + heatmap image verification, then try to prompt your favorite text-to-image AI with those tokens. YES! Even the "crazy tokens"; after all, it's a CLIP steering the image towards your prompt inside a text-to-image AI system!
 
 ### Examples:
+
+![what-clip-sees](https://github.com/zer0int/CLIP-text-image-interpretability/assets/132047210/8a54441b-15c1-4472-8218-f626483e6e30)
+
+![attention-guided](https://github.com/zer0int/CLIP-text-image-interpretability/assets/132047210/646fe6eb-09f6-4481-b570-37c309955329)
 
 
 ---
