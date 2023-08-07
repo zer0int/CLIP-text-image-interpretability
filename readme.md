@@ -16,11 +16,11 @@ In simple terms: Feeds an image to a CLIP ViT vision transformer to obtain "a CL
 
 ## Setup 
 
-1. *Install CLIP/OpenAI and hila-chefer/Transformer-MM-Explainability*
-2. *Put the contents of this repo into the "/Transformer-MM-Explainability" folder*
-3. *Execute "python runall.py" from the command line, follow instructions*
-4. *Or run the individual scripts separately, check runall.py for details*
-5. *You should have most requirements from the prequisite installs (1.), except kornia ("pip install kornia")*
+1. **Install CLIP/OpenAI and hila-chefer/Transformer-MM-Explainability**
+2. **Put the contents of this repo into the "/Transformer-MM-Explainability" folder**
+3. **Execute "python runall.py" from the command line, follow instructions**
+4. **Or run the individual scripts separately, check runall.py for details**
+5. *You should have most requirements from the prequisite installs (1.), except kornia ("pip install kornia")**
 6. *Requires a minimum amount of 4 GB VRAM (CLIP ViT-B/32). Check clipga.py and adjust batch size if you get a CUDA OOM, or to use a different model*
 
 
