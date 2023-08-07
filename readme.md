@@ -16,7 +16,7 @@ In simple terms: Feeds an image to a CLIP ViT vision transformer to obtain "a CL
 
 ## Setup 
 
-1. **Install CLIP/OpenAI and hila-chefer/Transformer-MM-Explainability**
+1. **Install OpenAI/CLIP and hila-chefer/Transformer-MM-Explainability**
 2. **Put the contents of this repo into the "/Transformer-MM-Explainability" folder**
 3. **Execute "python runall.py" from the command line, follow instructions**
 4. **Or run the individual scripts separately, check runall.py for details**
