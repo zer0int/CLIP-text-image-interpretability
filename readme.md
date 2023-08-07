@@ -35,5 +35,6 @@ In simple terms: Feeds an image to a CLIP ViT vision transformer to obtain "a CL
 
 ![attention-guided](https://github.com/zer0int/CLIP-text-image-interpretability/assets/132047210/646fe6eb-09f6-4481-b570-37c309955329)
 
+![interoperthunderbirds](https://github.com/zer0int/CLIP-text-image-interpretability/assets/132047210/92fc4b11-f1ad-4278-8f73-bc016cce4afa)
 
 ---
