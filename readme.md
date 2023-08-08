@@ -22,6 +22,7 @@ In simple terms: Feeds an image to a CLIP ViT vision transformer to obtain "a CL
 4. **Or run the individual scripts separately, check runall.py for details**
 5. *You should have most requirements from the prequisite installs (1.), except maybe kornia ("pip install kornia")*
 6. *Requires a minimum amount of 4 GB VRAM (CLIP ViT-B/32). Check clipga.py and adjust batch size if you get a CUDA OOM, or to use a different model*
+7. *Use the same CLIP ViT model for clipga.py and clipexplain.py (defined at top of code, "clipmodel=")... Or experiment around!*
 
 
 ## What does a vision transformer "see"?
