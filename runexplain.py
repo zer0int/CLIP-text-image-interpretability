@@ -1,5 +1,15 @@
 # -*- coding: utf-8 -*-
-# Taken and slightly adjusted for this project from: https://github.com/hila-chefer/Transformer-MM-Explainability
+
+
+
+# Choose the same model as in clipga.py (or try how it compares if you don't!):
+# ['ViT-B/32', 'ViT-B/16', 'ViT-L/14']
+
+clipmodel='ViT-B/32'
+
+
+
+# No need to bother with the rest of this
 
 import os
 import sys
@@ -150,7 +160,7 @@ clip.clip._MODELS = {
 }
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
-model, preprocess = clip.load("ViT-B/32", device=device, jit=False)
+model, preprocess = clip.load(clipmodel, device=device, jit=False)
 
 def show_image_relevance(image_relevance, image, orig_image, img_path):
     # the function body here...
